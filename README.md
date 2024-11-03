@@ -12,6 +12,7 @@
 - Python 3.x
 - `requests` library
 - `beautifulsoup4` library
+- `playsound` library
 
 ## Installation
 
@@ -25,8 +26,8 @@
 ## Sound Options
 
 - If you want to change the soundfile used, open monitor_latest_posts.py in your favourite editor.
-- Find the following line - winsound.PlaySound('your_sound_file.mp3', winsound.SND_FILENAME)
-- Edit 'your_sound_file' with the name of your soundfile.
+- Find the following line - sound_file_path = os.path.join(script_dir, 'success game.mp3')
+- Edit 'success game.mp3' with the name of your soundfile.
 - Ensure the soundfile is in the same directory as the script.
 - Save, close and start the script with the instructions above.
 
